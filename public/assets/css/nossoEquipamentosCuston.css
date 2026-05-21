@@ -1,0 +1,81 @@
+.margin-bar {
+    margin-top: 10rem !important;
+}
+.equipament-title{
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 10px;
+}
+
+.font-title-locacao{
+    text-align: start;
+    border-bottom: 2px solid #a9b5bc;
+    padding-bottom: 5px;
+}
+
+.custon-container-white{
+    color: black;
+}
+
+.equipament-title-white{
+    font-weight: 300;
+    color: black;
+    line-height: 4rem;
+}
+
+.sublinhado{
+    background-color: #ffff00;
+}
+
+.bolder{
+    font-weight: bold;
+}
+
+/*.products-custon-size{
+    height: 72rem;
+}*/
+
+.custon-lead{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+.custom-list li::before {
+    content: "– "; 
+    color: black; 
+    font-weight: bold;
+}
+
+.button-color-custon {
+    background-color: #384975;
+    color: white;
+    border-color: #384975;
+    padding: 8px;
+}
+
+.button-color-custon:hover{
+    background-color: #ffffff;
+    color: #405281;
+    border-color: #405281;
+    padding: 8px;
+}
+
+.button-color-custon:active {
+    background-color: #6e8ee1 !important;
+    color: white !important;
+    border-color: #6e8ee1 !important;
+}
+
+@media (max-width: 768px) {
+    .equipament-title{
+        color: white;
+        font-weight: 400;
+        letter-spacing: 8px;
+        font-size: 1.8rem;
+    }
+}

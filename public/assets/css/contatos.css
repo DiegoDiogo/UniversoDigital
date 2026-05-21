@@ -1,0 +1,17 @@
+.margin-bar {
+    margin-top: 11rem !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.border-radius-custon {
+    border-radius: 18px;
+}
+
+@media (max-width: 768px) {
+    .font-size-custon {
+        font-size: 15px;
+    }
+}

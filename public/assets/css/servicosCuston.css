@@ -1,0 +1,96 @@
+.custon-subtitle {
+    font-weight: 600;
+}
+
+.margin-bar {
+    margin-top: 11rem !important;
+}
+
+.custon-title{
+    font-size: 4rem;
+}
+
+.custon-title::after{
+    content: '';
+    width: 6rem;
+    height: 3px;
+    background-color: #a9b5bc;
+    display: block;
+    margin: 15px 0;
+}
+
+.custon-color{
+    color: #384975 !important;
+}
+
+.img-servico-custon{
+    width: 100%;
+}
+
+.custon-list{
+    font-size: 1rem;
+}
+
+.primeira-imagem{
+    background: url(http://localhost:8000/assets/img/slide1-servicos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 470px;
+}
+
+.segunda-imagem{
+    background: url(http://localhost:8000/assets/img/slide-servicos-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 470px;
+}
+
+.button-color-custon {
+    background-color: #384975;
+    color: white;
+    border-color: #384975;
+    padding: 8px;
+}
+
+.button-color-custon:hover {
+    background-color: #516aa7;
+    color: white;
+    border-color: #516aa7;
+}
+
+.servico-especialista{
+    height: 250px;
+}
+
+.custon-paralax {
+    background-image: url(http://localhost:8000/assets/img/colunas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 46 255 / 20%); 
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .custon-paralax {
+        font-size: 20px;
+    }
+}

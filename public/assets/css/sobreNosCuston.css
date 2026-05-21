@@ -1,0 +1,74 @@
+.margin-bar {
+    margin-top: 11rem !important;
+}
+
+
+
+.parallax {
+    background-image: url(http://localhost:8000/assets/img/parallax1.png);
+    height: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.7; */
+    /* color: #29355f; */
+    color: #3f5297;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 3px 3px #29355f66;
+    margin-bottom: 20px;
+    background-color: #dbdbdb;
+}
+
+.custon-bg-proposta {
+    background: #29355f !important;
+    color: white;
+}
+
+.list-style {
+    color: #384975 !important;
+}
+
+.button-color-custon {
+    background-color: #384975;
+    color: white;
+    border-color: #384975;
+    padding: 8px;
+}
+
+.button-color-custon:hover {
+    background-color: #516aa7;
+    color: white;
+    border-color: #516aa7;
+}
+
+.button-color-custon:active {
+    background-color: #6e8ee1 !important;
+    color: white !important;
+    border-color: #6e8ee1 !important;
+}
+
+.custon-proposta-img{
+    box-shadow: 0 0 3rem rgb(255 255 255 / 44%);
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 35px;
+    padding: 8px;
+    margin: 4px;
+}
+
+
+@media (max-width: 768px) {
+    .custon-proposta-img{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .parallax{
+        font-size: 25px;
+        background-size: 200%;
+    }
+}

@@ -1,0 +1,99 @@
+.margin-bar {
+    margin-top: 10rem !important;
+}
+
+.animated-image {
+    animation: scaleAnimation 5s infinite;
+}
+
+.icon-style{
+    background-color: #ffffff00;
+    width: 60px;
+    border: 2px solid #2d3962;
+    padding: 12px;
+    height: 60px;
+    border-radius: 25px;
+    display: flex;
+    color: #2d3962;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.cartaz-contact{
+    font-size: 3rem;
+}
+
+.servico-especialista{
+    height: 250px;
+}
+
+.custon-paralax {
+    background-image: url(http://localhost:8000/assets/img/outsourcing-de-impressao.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 46 255 / 20%); 
+    z-index: 1;
+}
+
+.area-proposta {
+    background-color: #29355f;
+
+}
+
+.area-proposta h1,
+.area-proposta h2,
+.area-proposta h3,
+.area-proposta h4,
+.area-proposta h5,
+.area-proposta h6,
+.area-proposta p {
+    color: white !important;
+}
+
+.custon-card{
+    background-color: #ffffff5d;
+    min-height: 215px;
+}
+
+.card-size{
+    height: 170px;
+}
+
+@media (max-width: 768px) {
+    .cartaz-contact{
+        font-size: 2rem;
+    }
+    .link-size{
+        width: 100%;
+    }
+    .custon-paralax {
+        font-size: 20px;
+    }
+}
+
+@keyframes scaleAnimation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}

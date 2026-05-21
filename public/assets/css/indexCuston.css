@@ -1,0 +1,397 @@
+.principal-background {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.principal-background .carousel-item,
+.principal-background .carousel-item img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.principal-background .carousel-item img {
+    object-fit: fill;
+    width: 100%;
+}
+
+
+.principal-background .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 40%;
+    right: 5%;
+    left: auto;
+    bottom: 6%;
+    text-align: left;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+
+.carousel-item.active .carousel-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.vertical-indicators {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: gray;
+    width: 5px;
+
+    height: 35px;
+}
+
+.vertical-indicators button {
+    background-color: #007bffcc;
+
+    border: none;
+
+    width: 10px;
+
+    height: 40px;
+
+    margin: 0;
+
+    transition: background-color 0.3s ease;
+}
+
+.text-proposta {
+    width: 70%;
+}
+
+.vertical-indicators button.active {
+    background-color: #007bff;
+
+}
+
+
+.vertical-indicators button:hover {
+    background-color: #007bff;
+
+}
+
+
+.carousel-caption .btn {
+    margin-top: 1rem;
+    border-width: 2px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #0dcaf0;
+    color: #fff;
+}
+
+.area-proposta {
+    background-color: #29355f;
+
+}
+
+.area-proposta h1,
+.area-proposta h2,
+.area-proposta h3,
+.area-proposta h4,
+.area-proposta h5,
+.area-proposta h6,
+.area-proposta p {
+    color: white !important;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.personal-width {
+    width: 100%;
+}
+
+.custon-btn {
+    width: 150px;
+    height: auto;
+    font-size: 16px;
+}
+
+.parallax {
+    background-image: url(http://localhost:8000/assets/img/parallax1.png);
+    height: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3f5297;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 3px 3px #29355f66;
+    background-color: #dbdbdb;
+}
+
+.bg-servicos {
+    background-color: #9a9a9a6e;
+}
+
+.w-md-50 {
+    width: 50%;
+}
+
+.mg-auto {
+    margin: auto 0;
+}
+
+.carousel-control-prev {
+    left: 0px;
+}
+
+.carousel-control-next {
+    right: 0px;
+}
+
+.text-title {
+    color: #29355f !important;
+}
+
+.mr-custon {
+    margin-right: 2rem;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.49);
+    border-radius: 20px;
+}
+
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.swiper {
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.icon-custon-bg {
+    background-color: #ffffff !important;
+    color: #29355f !important;
+    box-shadow: 0 0 1rem rgb(255 255 255 / 66%);
+}
+
+.margin-bar {
+    margin-top: 10rem !important;
+}
+
+.custon-card {
+    background-color: #ffffff5d;
+    min-height: 380px;
+}
+
+.h6-custon {
+    font-size: 1.1rem;
+}
+
+.style-image {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.col-5ths {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+@media (max-width: 768px) {
+    .principal-background {
+        max-height: 400px !important;
+    }
+
+    .col-5ths {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .principal-background .carousel-caption {
+        font-size: 0.9rem;
+        padding: 0.8rem 1rem;
+        bottom: 10px !important;
+        max-width: 90% !important;
+        left: 5% !important;
+        right: 5% !important;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 0.5rem;
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        position: absolute;
+    }
+
+    .principal-background .carousel-caption h5 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .principal-background .carousel-caption p {
+        font-size: 0.85rem;
+    }
+
+    .carousel-indicators {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .carousel-indicators button {
+        background-color: rgba(0, 123, 255, 0.8);
+        border: none;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .carousel-indicators button.active {
+        background-color: rgba(0, 123, 255, 1);
+    }
+
+    .carousel-indicators button:hover {
+        background-color: rgba(0, 123, 255, 1);
+    }
+
+    .vertical-indicators {
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .vertical-indicators button {
+        background-color: rgba(0, 123, 255, 0.8);
+        border: none;
+        width: 40px;
+        height: 10px;
+        margin: 0 5px;
+        transition: background-color 0.3s ease;
+
+    }
+
+    .vertical-indicators button.active {
+        background-color: rgba(0, 123, 255, 1);
+
+    }
+
+    .vertical-indicators button:hover {
+        background-color: rgba(0, 123, 255, 1);
+
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 35px;
+        height: 5px;
+    }
+
+    .text-proposta {
+        width: 100%;
+    }
+
+    .personal-width {
+        max-width: 100%;
+    }
+
+    .btn-size {
+        width: 100%;
+    }
+
+    .parallax {
+        font-size: 25px;
+        background-size: 200%;
+    }
+
+    .w-md-50 {
+        width: 100%;
+    }
+
+    .image-custon-size {
+        width: 70px;
+        height: 70px;
+    }
+
+    .carousel-control-prev {
+        left: 0px;
+    }
+
+    .carousel-control-next {
+        right: 0px;
+    }
+
+    .box {
+        height: 100%;
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 2560px) {
+    .custon-card {
+        min-height: 305px;
+    }
+}

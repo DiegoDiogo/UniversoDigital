@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Lato", "Montserrat";
+}
+
+.title-family{
+    font-family: "Montserrat" !important;
+}
+
+.default-color{
+    color: #29355f !important;
+}
+
+.color-white{
+    color: white !important;
+}
+
+.font-title-locacao{
+    color: #a9b5bc;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.title-border::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #a9b5bc59;
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.custon-container{
+    background: linear-gradient(90deg, rgba(17, 30, 73, 1) 0%, rgba(41, 53, 95, 1) 39%, rgba(62, 73, 111, 1) 69%, rgba(82, 91, 125, 1) 100%);
+    color: white;
+}
+
+.toolbar {
+    background: #29355f !important;
+    height: 3.5rem !important;
+    display: flex !important;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.button-color-white {
+    border: 2px solid white !important;
+    color: white !important;
+}
+
+.button-color-white:hover {
+    background-color: #b0b0b06c !important;
+    border-color: white !important;
+}
+
+.button-color-white:active {
+    background-color: #6e8ee1 !important;
+    color: white !important;
+    border-color: #6e8ee1 !important;
+}
+
+.button-color-inverse {
+    border: 2px solid white !important;
+    color: white !important;
+    background-color: #b0b0b06c !important;
+}
+
+.button-color-inverse:hover {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border-color: #ffffff !important;
+}
+
+.button-color-inverse:active {
+    border: 2px solid #6e8ee1 !important;
+    color: #6e8ee1 !important;
+}
+
+.button-color-custon {
+    background-color: #384975;
+    color: white;
+    border-color: #384975;
+    padding: 8px;
+}
+
+.button-color-custon:hover{
+    background-color: #ffffff;
+    color: #405281;
+    border-color: #405281;
+    padding: 8px;
+}
+
+.button-color-custon:active {
+    background-color: #6e8ee1 !important;
+    color: white !important;
+    border-color: #6e8ee1 !important;
+}
+
+.navbar {
+    margin-top: 3.5rem !important;
+}
+
+.footer-custon {
+    background: linear-gradient(90deg, rgba(17, 30, 73, 1) 0%, rgba(41, 53, 95, 1) 39%, rgba(62, 73, 111, 1) 69%, rgba(82, 91, 125, 1) 100%);
+    color: white;
+}
+
+.footer-custon ul li a {
+    color: white !important;
+}
+
+.logo-navbar {
+    width: 150px;
+    height: auto;
+}
+
+.circulo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.logo-footer {
+    width: 100%;
+    height: auto;
+}
+
+.custon-icon{
+    color: white;
+}
+
+.custon-icon:hover{
+    color: #007bff;
+}
+
+.lead{
+    text-align: justify;
+}
+
+.list-unstyled{
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .toolbar {
+        justify-content: space-between !important;
+    }
+
+    .logo-footer {
+        width: 100%;
+    }
+
+    .title-border::after{
+        width: 100%;
+    }
+}
