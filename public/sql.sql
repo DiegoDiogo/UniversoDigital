@@ -238,7 +238,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 -- Copiando dados para a tabela universo_digital.users: ~0 rows (aproximadamente)
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `deleted_at`) VALUES
-	(1, 'Diego', 'drodrigo@saojose.br', NULL, '$2y$12$8WcLRz49mcvU2QLL2Rhtzuhb/L.v5b33sXIZzCHlxva6ib/yQDcG.', NULL, '2025-05-13 13:42:34', '2025-05-14 19:05:27', NULL),
 	(2, 'teste', 'teste@teste.com', NULL, '$2y$12$8WcLRz49mcvU2QLL2Rhtzuhb/L.v5b33sXIZzCHlxva6ib/yQDcG.', NULL, '2025-05-14 17:39:40', '2025-05-14 17:47:02', NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
